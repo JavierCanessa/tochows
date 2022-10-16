@@ -32,7 +32,7 @@
                     <option value="+56">CHILE(+56)</option>
                     <option value="+52">MEXICO(+52)</option>
                 </select>
-                <input required type="text" name="numerosend" id="numerosend" placeholder="Numero al que vas a escribir">
+                <input required type="number" name="numerosend" id="numerosend" placeholder="Numero al que vas a escribir">
             </div>
             <br><br>
             <button id="btn-send" type="submit" class="btn btn-primary">Escribir</button>
@@ -51,7 +51,7 @@
         } )
 
         sendBtn.addEventListener("click", () => {
-            
+
             let numero = document.getElementById('numerosend').value;
             window.open('https://wa.me/' + areacodes.value +  numero + '?text=Hola', '_blank');
 
