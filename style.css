@@ -1,0 +1,9 @@
+body{ background-color: black; }
+.contenedorform{ margin-right: 125px; margin-left: 125px; margin-top: 50px; margin-bottom: 50px; }
+
+@media (max-width:1200px) {
+	.contenedorform {
+		margin-left: 15px;
+	}
+
+}
